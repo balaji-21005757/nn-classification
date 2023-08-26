@@ -19,12 +19,29 @@ Include the neural network model diagram.
 ## DESIGN STEPS
 
 ### STEP 1:
-
+Import the necessary packages & modules.
 ### STEP 2:
-
+Load and read the dataset(Customer.csv)
 ### STEP 3:
-Write your own steps
-
+Perform pre processing and clean the dataset and find the null value.
+### STEP 4:
+Encode categorical value into numerical values using ordinal/label/one hot encoding.
+### STEP 5:
+Visualize the data using different plots in seaborn(Heatmap, Distplot, Scatterplot).
+### STEP 6:
+Normalize the values and split the values for x and y(Segmentation).
+### STEP 7:
+Build the deep learning model with appropriate layers and depth.
+### STEP 8:
+Analyze the model using different metrics.
+### STEP 9:
+Plot a graph for Training Loss, Validation Loss Vs Iteration & for Accuracy, Validation Accuracy vs Iteration.
+### STEP 10:
+Save the model using pickle by importing pickle.
+### STEP 11:
+Using the DL model predict for some random inputs
+### STEP 12:
+Build the neural network model for the appropriate layers and depth to visualise represent the model.
 ## PROGRAM
 
 Include your code here
